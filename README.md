@@ -4,7 +4,9 @@
 The data is related with direct marketing campaigns of a banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
 
 #### Files
-- **dataset.csv**
+- **train.csv** - the training set (use this as a complete dataset for model training, create train/test splits from this dataset)
+- **test.csv** - the test set (use this only for making predictions for submission)
+- **sample_submission.csv** - a sample submission file in the correct format
 
 #### Input variables
 - **last contact date**: last contact date
